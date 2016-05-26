@@ -11,10 +11,13 @@ def prob_3 (base, potencia):
 		base=base*p
 	return (base)	
 
-def prob_4 (Caracter,lon):
+def prob_4 (caracter,lon):
 	h = len caracter
 	lon=lon-h
 	lon=lon/2
 	return ("*"*lon, caracter , "*"*lon)
 
-def prob_5	
+def prob_5	(x,y):
+	x=[]
+	y=[]
+	return ((x[0]*x[1]) + (y[0]*y[1]))
